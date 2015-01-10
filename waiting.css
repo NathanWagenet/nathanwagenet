@@ -1,0 +1,168 @@
+body {
+	background-color: #f9f5e0;
+}
+
+.title {
+	background: linear-gradient(#303030, #808080);
+	border-style: solid;
+	border-radius: 10px;
+	border-color: #303030;
+	border-width: 4px;
+	padding: 25px;
+	text-align: center;
+	color: white;
+}
+
+a:link {
+	text-decoration: none;
+	color: #2020a0;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #2020a0;
+}
+
+.purchase {
+	background-color: #ececff;
+	width: 175px;
+	font-size: 18px;
+	border-radius: 7px;
+	text-align: center;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #2020a0;
+	padding: 3px;
+}
+
+.image {
+	width: 360px;
+	float: left;
+	margin: 0px 10px 10px 0px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+.books {
+	float: right;
+	width: 175px;
+	margin: 0px 0px 10px 30px;
+	border-style: inset;
+	padding-left: 20px;
+}
+
+.poems {
+	float: left;
+	margin-left: 370px;
+	width: 200px;
+	margin: 5px 0px 10px 30px;
+}
+
+#left {
+	float: left;
+	margin-right: 5px;
+}
+
+#right {
+	float: right;
+	margin-left: 5px;
+}
+
+#title {
+	font-size: 21px;
+	margin-bottom: -10px;
+	margin-left: -20px;
+}
+
+h4 {
+	margin-bottom: -10px;
+}
+
+.modal1 {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity: 0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+.modal1:target {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.modal1 div {
+	width: 425px;
+	position: relative;
+	margin: 10% auto;
+	padding: 10px 10px 0px 10px;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	background-color: #fafaff;
+	font-size: 14px;
+}
+
+.close {
+	background: white;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover {
+	background-color: #d0d0ff;
+}
+
+.modal2 {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity: 0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+.modal2:target {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.modal2 div {
+	width: 325px;
+	position: relative;
+	margin: 12% auto;
+	padding: 10px 15px 0px 15px;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	background-color: #fafaff;
+	font-size: 16px;
+}

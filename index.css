@@ -1,0 +1,50 @@
+body {
+	background-color: #f9f5e0;
+}
+
+.title {
+	border-radius: 10px;
+	padding: 25px;
+	background: linear-gradient(#54a0d0, #a0d8ff);
+	border-style: solid;
+	border-color: #54a0d0;
+	border-width: 4px;
+	text-align: center;
+}
+
+.about {
+	float: left;
+	width: 175px;
+	height: 265px;
+	margin: 0px 30px 10px 0px;
+	border-style: outset;
+	border-width: 4px;
+	padding: 0px 15px 15px;
+	background-color: #f7fcff;
+}
+
+.about p {
+	font-size: 14px;
+}
+
+.books {
+	float: right;
+	width: 175px;
+	margin: 0px 0px 10px 30px;
+	border-style: inset;
+	padding-left: 20px;
+}
+
+a:link {
+	text-decoration: none;
+	color: #2020a0;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #2020a0;
+}
+
+h4 {
+	margin-bottom: -10px;
+}

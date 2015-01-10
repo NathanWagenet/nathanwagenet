@@ -1,0 +1,36 @@
+body {
+	background-color: #f9f5e0;
+}
+
+.title {
+	color: #d09c24;
+	text-align: center;
+	background: linear-gradient(black, #707070);
+	border-style: solid;
+	border-radius: 10px;
+	border-color: black;
+	border-width: 4px;
+	padding: 25px;
+}
+
+.books {
+	float: right;
+	width: 175px;
+	margin: 0px 0px 10px 30px;
+	border-style: inset;
+	padding-left: 20px;
+}
+
+a:link {
+	text-decoration: none;
+	color: #2020a0;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #2020a0;
+}
+
+h4 {
+	margin-bottom: -10px;
+}
